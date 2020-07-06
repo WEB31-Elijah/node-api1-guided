@@ -1,0 +1,20 @@
+-- create template package.json
+npm init -y
+
+-- install express
+npm i express
+
+-- ignore files related to node.js
+npx gitignore node
+
+-- install nodemon as a dev dependency only
+npm i -D nodemon
+
+-- run the server 
+node index.js
+
+-- "server": "nodemon index.js"
+npm run server
+
+-- creates short non-sequential url-friendly unique id's (url shorteners)
+npm i shortid
